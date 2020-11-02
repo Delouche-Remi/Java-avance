@@ -21,7 +21,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Entity
 @Inheritance(strategy=InheritanceType.TABLE_PER_CLASS)
-abstract class Compte {
+abstract public class Compte {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
     protected int idCompte;

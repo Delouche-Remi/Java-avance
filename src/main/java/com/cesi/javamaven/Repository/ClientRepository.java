@@ -1,6 +1,6 @@
 package com.cesi.javamaven.repository;
 
-import com.cesi.spring.model.Client;
+import com.cesi.javamaven.model.Client;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
